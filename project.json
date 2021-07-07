@@ -1,0 +1,66 @@
+{
+  "name": "Twist_Performer",
+  "description": "Twist_Performer",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[21.1.2]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.FormActivityLibrary": "[1.2.1-preview]",
+    "UiPath.FormActivityLibrary.Contracts": "[1.1.1]",
+    "UiPath.MLServices.Activities": "[1.1.6]",
+    "UiPath.Persistence.Activities": "[1.2.2]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.WebAPI.Activities": "[1.7.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "HyperHack",
+      "namespace": "Twist_Performer_v5",
+      "uniqueReference": "0uk3G2IQGTzf+ZoM5AqIKwR0zokuokc8Q7ewbI6B9dw="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.3.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "58382a92-2181-47c8-8d2a-6cf9ef216dd3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
